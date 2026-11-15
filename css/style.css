@@ -71,6 +71,9 @@ a.card:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(40,50,40,.08
 .photo img{width:100%;max-height:560px;object-fit:cover}
 .art{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:40px;display:flex;align-items:center;justify-content:center}
 .art svg{width:min(260px,70%);height:auto}
+.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:22px}
+.gallery img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:var(--radius)}
+@media (max-width:720px){.gallery{grid-template-columns:repeat(2,1fr)}}
 .verse{font-family:var(--serif);font-style:italic;font-size:1.2rem;color:var(--green-dark);border-left:3px solid var(--wheat);padding:4px 0 4px 20px;margin:28px 0 0}
 .verse cite{display:block;font-style:normal;font-family:var(--sans);font-size:.9rem;color:var(--muted);margin-top:6px}
 ul.ticks{list-style:none;padding:0;margin:0 0 1em}
