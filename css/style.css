@@ -68,6 +68,7 @@ a.card:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(40,50,40,.08
 .split{display:grid;grid-template-columns:1.1fr .9fr;gap:44px;align-items:center}
 @media (max-width:820px){.split{grid-template-columns:1fr}}
 .photo{border-radius:var(--radius);overflow:hidden;box-shadow:0 12px 28px rgba(40,50,40,.12)}
+.photo img{width:100%;max-height:560px;object-fit:cover}
 .art{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:40px;display:flex;align-items:center;justify-content:center}
 .art svg{width:min(260px,70%);height:auto}
 .verse{font-family:var(--serif);font-style:italic;font-size:1.2rem;color:var(--green-dark);border-left:3px solid var(--wheat);padding:4px 0 4px 20px;margin:28px 0 0}
